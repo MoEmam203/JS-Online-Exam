@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Exam</title>
+        <script src="../JQuery/jquery-2.6.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- <h2>Exam page</h2> -->
+
+        <div class="mainwrapper">
+            <span> Welcome : <span id="user">username</span></span>
+            <span id="quizName">Quiz name</span>
+            <span id="quizTimer"> exam timer</span>
+
+            <span id="timer">30:00</span>
+
+            <div class="question">
+                <h3>Question <span id="Qnum">1</span></h3>
+                <h4 id="header"></h4>
+                <h4>Answers</h4>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" value="0" id="answer1" > <span id="ans1" name="anss">Answer 1</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" value="1" id="answer2"> <span id="ans2" name="anss">Answer 2</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" value="2" id="answer3"> <span id="ans3" name="anss">Answer 3</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" value="3" id="answer4"> <span id="ans4" name="anss">Answer 4</span>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" value="4" id="answer5"> <span id="ans5" name="anss">Answer 5</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="degree">
+                <h2>Your Degree is : <span id="userDegree"></span></h2>
+            </div>
+            <input type="button" value="Next">
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>
